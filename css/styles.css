@@ -1,0 +1,29 @@
+.top-nav {
+	margin-bottom: 0;
+	background-color: white;
+	border: 0;
+	border-radius: 0;
+}
+
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
+}
+
+#banner {
+	background-image: url("../assets/img/tesla-banner.jpg");
+	background-size: cover;
+	background-position: 50% 75%;
+	height: 80vh;
+	width: 100vw;
+	min-height: 500px;
+}
+
+.banner-text {
+	color: white;
+	padding-top: 60px;
+}
