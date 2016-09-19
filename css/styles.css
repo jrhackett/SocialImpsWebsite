@@ -1,3 +1,7 @@
+section {
+	padding: 20px 0;
+}
+
 .top-nav {
 	margin-bottom: 0;
 	background-color: white;
@@ -14,6 +18,19 @@
     float: none;
 }
 
+nav.navbar {
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: 10;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #eee;
+}
+
 #banner {
 	background-image: url("../assets/img/tesla-banner.jpg");
 	background-size: cover;
@@ -21,9 +38,22 @@
 	height: 80vh;
 	width: 100vw;
 	min-height: 500px;
+	margin-top:-55px;
 }
 
 .banner-text {
 	color: white;
-	padding-top: 60px;
+	padding-top: 100px;
+}
+
+.gray-section {
+	background-color: #EEE;
+}
+
+.black-section {
+	background-color: #333;
+}
+
+.black-section h2, .black-section p, .black-section li {
+	color: white;
 }
