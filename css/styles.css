@@ -57,3 +57,7 @@ nav.navbar {
 .black-section h2, .black-section p, .black-section li {
 	color: white;
 }
+
+ .sectionbox:nth-child(2n) {
+    background-color: #e2e2e2;
+ }
