@@ -19,13 +19,4 @@
 	    }
 	});
 
-	$(document).ready(function() {
-		if($("#navbar-collapse-1").hasClass("collapse")) {
-			$("nav").addClass("collapsed");
-		}
-		else {
-			$("nav").removeClass("collapsed");
-		}
-	});
-
 })(jQuery);
