@@ -64,7 +64,7 @@ body.scrolled nav.navbar {
 }
 
 .gray-section {
-	background-color: #EEE;
+	background-color: #EFEFEF;
 }
 
 .black-section {
@@ -76,10 +76,14 @@ body.scrolled nav.navbar {
 }
 
 .sectionbox:nth-child(2n) {
-	background-color: #e2e2e2;
+	background-color: #efefef;
 }
 
- .timeline {
+.page-header {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.timeline {
     list-style: none;
     padding: 20px 0 20px;
     position: relative;
@@ -223,9 +227,9 @@ body.scrolled nav.navbar {
     margin-bottom: 0;
 }
 
-    .timeline-body > p + p {
-        margin-top: 5px;
-    }
+.timeline-body > p + p {
+    margin-top: 5px;
+}
 
 @media (max-width: 767px) {
     ul.timeline:before {
